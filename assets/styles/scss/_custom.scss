@@ -5,7 +5,7 @@ body {
 .mape-hero {
 	min-height: 100px;
 	width: 100%;
-	border-bottom: 4px solid #203a47;
+	border-bottom: 4px solid #ffc107;
 }
 .home-main {
 	position: relative;
@@ -14,9 +14,11 @@ body {
 	min-height: 350px;
 }
 .mape-footer {
-	position: relative;
 	background: #1c1d1d;
-	min-height: 400px;
+	min-height: 150px;
 	width: 100%;
-	border-top: 4px solid #203a47;
+	border-top: 4px solid #ffc107;
+}
+.contact-col {
+	padding-left: 4.3rem;
 }

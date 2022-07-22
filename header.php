@@ -6,7 +6,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="alternate" hreflang="x-default" href="<?php echo get_home_url(); ?>"/>
 <link rel="alternate" hreflang="en-us" href="<?php echo get_home_url(); ?>"/>
-<?php get_template_part( 'parts/page', 'favicons' ); ?>
+<?php //get_template_part( 'parts/page', 'favicons' ); ?>
 <?php wp_head(); ?>
 </head>
 <body <?php body_class(); ?>>
