@@ -13,14 +13,15 @@ $('.dropdown').on('hide.bs.dropdown', function(e) {
 $('.nav-link').removeAttr('title');
 
 //TRIGGER SEARCH MODAL
-    $(".mape-search-modal").click(function(){
-        $("#searchModal").modal('show');
-    });
+$(".mape-search-modal").click(function(){
+    $("#searchModal").modal('show');
+});
 
-    //FOCUS SEARCH INPUT
-    $('#searchModal').on('shown.bs.modal', function () {
-    	$('#searchMAPE').trigger('focus')
-    });
+//FOCUS SEARCH INPUT
+$('#searchModal').on('shown.bs.modal', function () {
+    $('#searchMape').trigger('focus')
+});
+
 
 
 })( jQuery );

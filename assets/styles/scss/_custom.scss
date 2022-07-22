@@ -1,22 +1,12 @@
+body {
+	background-color: #e9e9e9;
+	padding-top: 5.9rem;
+}
 .mape-hero {
-	position: relative;
-	background-image: url('../../../../uploads/mape-hero-image.jpg');
-	background-repeat: no-repeat;
-	background-position: center center;
-	background-size: cover;
-	min-height: 600px;
+	min-height: 100px;
+	max-height: 1000px;
 	width: 100%;
 	border-bottom: 4px solid #203a47;
-	&:before {
-		content: '';
-		//background: rgba(0, 0, 0, 0.55);
-		width: 100%;
-		min-height: 600px;
-		position: absolute;
-		left: 0;
-		top: 0;
-		z-index: 1;
-	}
 }
 .home-main {
 	position: relative;

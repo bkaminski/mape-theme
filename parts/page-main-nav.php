@@ -1,6 +1,6 @@
 <!-- begin desktop nav -->
 <header class="d-none d-lg-block">
-	<nav class="navbar navbar-expand-lg fixed-top shadow" style="background: #fff;">
+	<nav class="navbar navbar-expand-lg fixed-top shadow" style="background: #e9e9e9;">
 		<div class="container-fluid">
 			<a class="navbar-brand" href="<?php echo get_home_url(); ?>" >
 				<img src="<?php echo get_home_url(); ?>/wp-content/uploads/mape-web-logo.webp" alt="Mid-Atlantic Propane Exchange" class="img-fluid" width="200">	
@@ -28,7 +28,7 @@
 <!-- end desktop nav -->
 <!-- begin mobile offcanvas nav -->
 <header class="d-block d-lg-none">
-	<nav class="navbar fixed-top shadow" style="background: #fff;">
+	<nav class="navbar fixed-top shadow" style="background: #e9e9e9;">
   		<div class="container-fluid">
     		<a class="navbar-brand" href="<?php echo get_home_url(); ?>">
     			<img src="<?php echo get_home_url(); ?>/wp-content/uploads/mape-web-logo.webp" alt="Mid-Atlantic Propane Exchange" width="200" class="img-fluid">
@@ -61,7 +61,7 @@
     					'walker'            => new WP_Bootstrap_Navwalker(),
     				)); ?>
     				<form class="d-flex" role="search">
-    					<input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+    					<input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" value="<?php echo esc_html($s, 1); ?>" name="s" id="searchMAPE" maxlength="33" required>
     					<button class="btn btn-outline-primary" type="submit">Search</button>
     				</form>
     			</div>
