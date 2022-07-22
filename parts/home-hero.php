@@ -1,8 +1,8 @@
 <section class="mape-hero">
 	<div id="carousel1" class="carousel slide carousel-fade" data-bs-ride="carousel">
 		<div class="carousel-caption" style="z-index: 9;">
-			<h1 class="fw-bold hero--title">Mid-Atlantic Propane Exchange</h1>
-			<p class="h3 pb-3 hero--sub">Clean, Efficient Energy </p>
+			<h1 class="fw-bold display-3 hero--title">Mid-Atlantic Propane Exchange</h1>
+			<p class="h3 pb-5 hero--sub">Clean, Efficient Energy </p>
 			<p><a href="#" class="btn btn-lg btn-warning text-uppercase fw-bold hero--cta">Find out More</a></p>
 		</div>
 		<div class="carousel-inner">

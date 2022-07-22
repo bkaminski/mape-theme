@@ -11,23 +11,22 @@
 	z-index: 1;
 }
 .carousel-item {
-  height: 491px;
-  @include breakpoint (lg) {
-  	min-height: 491px;
-  	width: 100%;
-  }
-  &:after {
-  	content:"";
-  	display:block;
-  	position:absolute;
-  	top:0;
-  	bottom:0;
-  	left:0;
-  	right:0;
-  	background:rgba(0,0,0,0.7);	
-   }
+	height: 491px;
+	@include breakpoint (lg) {
+		min-height: 491px;
+		width: 100%;
+	}
+	&:after {
+		content:"";
+		display:block;
+		position:absolute;
+		top:0;
+		bottom:0;
+		left:0;
+		right:0;
+		background:rgba(0,0,0,0.7);	
+	}
 }
-
 .carousel-item img {
     position: absolute;
     top: 0;
