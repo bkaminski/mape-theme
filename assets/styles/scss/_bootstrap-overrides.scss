@@ -10,7 +10,13 @@
 	transform-style: preserve-3d;
 	z-index: 1;
 }
-.carousel-item:after {
+.carousel-item {
+  height: 491px;
+  @include breakpoint (lg) {
+  	min-height: 491px;
+  	width: 100%;
+  }
+  &:after {
   	content:"";
   	display:block;
   	position:absolute;
@@ -18,5 +24,20 @@
   	bottom:0;
   	left:0;
   	right:0;
-  	background:rgba(0,0,0,0.7);
+  	background:rgba(0,0,0,0.7);	
+   }
+}
+
+.carousel-item img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-height: 491px;
+    @include breakpoint (lg) {
+    	min-height: 100%;
+    	width: 100%;
+    	top: 0;
+    	left: 0;
+    }
+
 }

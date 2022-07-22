@@ -7,13 +7,13 @@
 		</div>
 		<div class="carousel-inner">
 			<div class="carousel-item active">
-				<img src="<?php echo get_home_url();?>/wp-content/uploads/mape-hero-image.jpg" class="d-block w-100" alt="...">
+				<img src="<?php echo get_home_url();?>/wp-content/uploads/mape-hero-image.jpg" class="d-block" alt="...">
 			</div>
 			<div class="carousel-item">
-				<img src="<?php echo get_home_url();?>/wp-content/uploads/mape-hero-image2.jpg" class="d-block w-100" alt="...">
+				<img src="<?php echo get_home_url();?>/wp-content/uploads/mape-hero-image2.jpg" class="d-block" alt="...">
 			</div>
 			<div class="carousel-item">
-				<img src="<?php echo get_home_url();?>/wp-content/uploads/mape-hero-image3.jpg" class="d-block w-100" alt="...">
+				<img src="<?php echo get_home_url();?>/wp-content/uploads/mape-hero-image3.jpg" class="d-block" alt="...">
 			</div>
 		</div>
 	</div>
