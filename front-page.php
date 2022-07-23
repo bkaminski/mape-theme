@@ -4,4 +4,6 @@
 
 <?php echo get_template_part('parts/home', 'main'); ?>
 
+<?php echo get_template_part('parts/home', 'services'); ?>
+
 <?php get_footer(); ?>

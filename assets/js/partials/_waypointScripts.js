@@ -15,6 +15,41 @@
 		}, {
 			offset: '100%'
 		});
+		$('.main--title').waypoint(function() {
+			$('.main--title').addClass('animated fadeInLeft');
+		}, {
+			offset: '100%'
+		});
+		$('.main--text').waypoint(function() {
+			$('.main--text').addClass('animated fadeInUp');
+		}, {
+			offset: '100%'
+		});
+		$('.home--services').waypoint(function() {
+			$('.home--services').addClass('animated fadeInDown');
+		}, {
+			offset: '100%'
+		});
+		$('.service--4').waypoint(function() {
+			$('.service--4').addClass('animated fadeInLeft');
+		}, {
+			offset: '100%'
+		});
+		$('.service--3').waypoint(function() {
+			$('.service--3').addClass('animated fadeInLeft');
+		}, {
+			offset: '100%'
+		});
+		$('.service--2').waypoint(function() {
+			$('.service--2').addClass('animated fadeInLeft');
+		}, {
+			offset: '100%'
+		});
+		$('.service--1').waypoint(function() {
+			$('.service--1').addClass('animated fadeInLeft');
+		}, {
+			offset: '100%'
+		});
 	});
 
 })( jQuery );
