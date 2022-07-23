@@ -7,7 +7,7 @@
 		</div>
 		<div class="row row-cols-1 row-cols-lg-4 g-4">
 			<div class="col">
-				<div class="card h-100 rounded-0 service--1">
+				<div class="card h-100 rounded-0 service--1 shadow">
 					<div class="card-img-top text-center pt-3">
 						<i class="fa-solid fa-fire-flame-simple fa-5x"></i>
 					</div>
@@ -21,7 +21,7 @@
 				</div>
 			</div>
 			<div class="col">
-				<div class="card h-100 rounded-0 service--2">
+				<div class="card h-100 rounded-0 service--2 shadow">
 					<div class="card-img-top text-center pt-3">
 						<i class="fa-solid fa-tractor fa-5x"></i>
 					</div>
@@ -35,7 +35,7 @@
 				</div>
 			</div>
 			<div class="col">
-				<div class="card h-100 rounded-0 service--3">
+				<div class="card h-100 rounded-0 service--3 shadow">
 					<div class="card-img-top text-center pt-3">
 						<i class="fa-solid fa-fire fa-5x"></i>
 					</div>
@@ -49,7 +49,7 @@
 				</div>
 			</div>
 			<div class="col">
-				<div class="card h-100 rounded-0 service--4">
+				<div class="card h-100 rounded-0 service--4 shadow">
 					<div class="card-img-top text-center pt-3">
 						<i class="fa-solid fa-person-digging fa-5x"></i>
 					</div>

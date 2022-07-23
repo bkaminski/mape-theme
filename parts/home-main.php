@@ -3,7 +3,7 @@
 		<div class="row">
 			<div class="col text-center pb-2">
 				<h2 class="fw-bold main--title">Propane Supplier and Propane Exchange Services</h2>
-				<p class="text-center h5 main--text">Mid-Atlantic Propane Exchange is the #1 <a href="#">propane cylinder exchange supplier</a> in the Maryland, Delaware, and Pennsylvania region. Our customers highly value our superior delivery model and our unmatched customer service reputation. We promise a level of service above and beyond what you get from other propane exchange companies. Our location is locally owned and operated, so we will work harder to exceed your expectations.</p>
+				<p class="text-center h5 main--text">Mid-Atlantic Propane Exchange is the #1 <a href="#">propane cylinder exchange supplier</a> in the Maryland, Delaware, New Jersey, and Pennsylvania region. Our customers highly value our superior delivery model and our unmatched customer service reputation. We promise a level of service above and beyond what you get from other propane exchange companies. Our location is locally owned and operated, so we will work harder to exceed your expectations. Our team at Mid-Atlantic Propane Exchange, LLC is committed to providing high-quality service and meeting all of your forklift propane needs.</p>
 			</div>
 		</div>
 	</div>
