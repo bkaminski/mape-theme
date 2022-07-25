@@ -50,6 +50,26 @@
 		}, {
 			offset: '100%'
 		});
+		$('.info--title1').waypoint(function() {
+			$('.info--title1').addClass('animated fadeInDown');
+		}, {
+			offset: '100%'
+		});
+		$('.info--title2').waypoint(function() {
+			$('.info--title2').addClass('animated fadeInDown');
+		}, {
+			offset: '100%'
+		});
+		$('.info--area1').waypoint(function() {
+			$('.info--area1').addClass('animated fadeInUp');
+		}, {
+			offset: '100%'
+		});
+		$('.info--area2').waypoint(function() {
+			$('.info--area2').addClass('animated fadeInUp');
+		}, {
+			offset: '100%'
+		});
 	});
 
 })( jQuery );
