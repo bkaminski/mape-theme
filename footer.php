@@ -1,3 +1,6 @@
+<a href="javascript:" id="back-up" class="text-center" title="Back to Top">
+	<i class="fas fa-chevron-up fa-lg text-white"></i>
+</a>
 <footer class="mape-footer">
 	<div class="container">
 		<div class="row pt-5 pb-5">
