@@ -1,3 +1,4 @@
+<!-- begin home services -->
 <section class="home-services bg-mape-blue">
 	<div class="container pb-5 pt-5">
 		<div class="row">
@@ -65,3 +66,5 @@
 		</div>
 	</div>
 </section>
+<!-- end home services -->
+

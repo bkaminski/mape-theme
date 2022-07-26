@@ -1,3 +1,4 @@
+<!-- begin home info -->
 <section class="home-info">
 	<div class="container pt-5 pb-5">
 		<div class="row">
@@ -27,3 +28,4 @@
 			</div>
 		</div>
 </section>
+<!-- end home info -->

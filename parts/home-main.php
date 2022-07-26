@@ -1,3 +1,4 @@
+<!-- begin home main -->
 <section class="home-main">
 	<div class="container pb-5 pt-5">
 		<div class="row">
@@ -14,3 +15,4 @@
 		</div>
 	</div>
 </section>
+<!-- end home main -->

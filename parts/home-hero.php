@@ -1,3 +1,4 @@
+<!-- begin hero section -->
 <section class="mape-hero">
 	<div id="carousel1" class="carousel slide carousel-fade" data-bs-ride="carousel">
 		<div class="carousel-caption" style="z-index: 9;">
@@ -24,4 +25,5 @@
 		</div>
 	</div>
 </section>
+<!-- end hero section -->
 

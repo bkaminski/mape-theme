@@ -1,7 +1,8 @@
-<a href="javascript:" id="back-up" class="text-center" title="Back to Top">
-	<i class="fas fa-chevron-up fa-lg text-white"></i>
-</a>
+<!-- begin footer -->
 <footer class="mape-footer">
+	<a href="javascript:" id="back-up" class="text-center" title="Back to Top">
+		<i class="fas fa-chevron-up fa-lg text-white"></i>
+	</a>
 	<div class="container">
 		<div class="row pt-5 pb-5">
 			<div class="col-lg-4 pt-3 pb-3 text-center">
@@ -41,7 +42,12 @@
 		</div>
 	</div>
 </footer>
+<!-- end footer -->
+<!-- begin search modal -->
 <?php echo get_template_part('parts/page', 'search-modal'); ?>
+<!-- end search modal -->
+<!-- begin scripts -->
 <?php wp_footer(); ?>
+<!-- end scripts -->
 </body>
 </html>
