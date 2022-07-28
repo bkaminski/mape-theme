@@ -70,6 +70,11 @@
 		}, {
 			offset: '100%'
 		});
+		$('.int--page--title').waypoint(function() {
+			$('.int--page--title').addClass('animated fadeInDown');
+		}, {
+			offset: '100%'
+		});
 	});
 
 })( jQuery );
