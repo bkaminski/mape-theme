@@ -34,8 +34,20 @@ body {
 .contact-col {
 	padding-left: 4.3rem;
 }
+.int-page-header {
+	background-color: #0246f4;
+	position: relative;
+	width: 100%;
+	min-height: 100px;
+	border-bottom: 4px solid #1c1d1d;
+}
+.int-page-body {
+	position: relative;
+	width: 100%;
+	min-height: 700px;
+}
 .bg-mape-blue {
-	background-color: #0246f4 !important;
+	background-color: #0246f4;
 }
 /* Go back to top button */
 #back-up {

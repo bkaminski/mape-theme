@@ -1,12 +1,16 @@
 <?php get_header(); ?>
+	<section class="int-page-header pt-5 pb-5">
+		<h1 class="text-center text-white">Search</h1>
+			
+	</section>
 	<div class="container">
-		<div class="alert alert-primary mt-3 shadow">
-			<h4 class="text-uppercase text-center pt-2">
+		<div class="alert alert-warning mt-3 shadow">
+			<h4 class="text-uppercase text-center">
 				<?php printf( __( 'Search Results for: "%s"', 'mape-theme' ), get_search_query() ); ?>
 
 			</h4>
 		</div>
-		<div class="row">
+		<div class="row pt-5 pb-5">
 			<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 				<div class="col-md-12 mb-4">
 					<section>
@@ -16,7 +20,7 @@
 									
 							</a>
 						</h1>
-						<?php the_excerp(); ?>
+						<?php the_excerpt(); ?>
 
 						<hr>
 					</section>

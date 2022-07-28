@@ -1,8 +1,11 @@
 <?php get_header(); ?>
-<div class="container pt-5">
-	<div class="alert alert-success mt-3 shadow">
+<section class="int-page-header pt-5 pb-5">
+		<h1 class="text-center text-white">Related Topics</h1>
+</section>
+<div class="container pt-5 pb-5">
+	<div class="alert alert-warning mt-3 shadow">
 		<h4 class="text-uppercase text-center pt-2">
-			<?php printf( __( 'Content Tagged With: %s', 'dynamic-marketing' ), '<span>' . get_search_query() . '</span>' ); ?>
+			<?php printf( __( 'Content Tagged With: %s', 'mape-theme' ), '<span>' . get_search_query() . '</span>' ); ?>
 			<em>&ldquo;<?php single_tag_title(); ?>&rdquo;</em>
 		</h4>
 	</div>
