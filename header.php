@@ -10,4 +10,11 @@
 <?php wp_head(); ?>
 </head>
 <body <?php body_class(); ?>>
+<div id="preLoader">
+	<div class="text-center" style="margin-top:40%;">
+		<div class="spinner-border text-primary" style="width: 4rem; height: 4rem;" role="status">
+			<span class="visually-hidden">Loading...</span>
+		</div>
+	</div>
+</div>
 <?php get_template_part( 'parts/page', 'main-nav' ); ?>

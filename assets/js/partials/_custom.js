@@ -1,6 +1,15 @@
 //jQuery no-conflict mode
 (function( $ ) {
 
+// Preloader
+$(window).on('load', function() {
+    setTimeout(function(){
+        $('#preLoader').fadeOut('slow', function () {
+
+        });
+    }, 0);
+});
+
 //Animate slide up and down nav dropdowns.
 $('.dropdown').on('show.bs.dropdown', function(e) {
 	$(this).find('.dropdown-menu').first().stop(true, true).slideDown("fast");
