@@ -11,7 +11,7 @@
 </head>
 <body <?php body_class(); ?>>
 <div id="preLoader">
-	<div class="text-center" style="margin-top:40%;">
+	<div class="text-center" style="margin-top:30%;">
 		<div class="spinner-border text-primary" style="width: 4rem; height: 4rem;" role="status">
 			<span class="visually-hidden">Loading...</span>
 		</div>
