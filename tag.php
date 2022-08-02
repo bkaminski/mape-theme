@@ -28,7 +28,7 @@
 			<p><?php esc_html_e( 'Sorry, no posts matched your criteria.' ); ?></p>
 		<?php endif; ?>
 		<div class="col">
-			<?php echo dmi_pagination(); ?>
+			<?php echo mape_pagination(); ?>
 		</div>
 	</div>
 </div>

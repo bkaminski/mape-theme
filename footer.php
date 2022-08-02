@@ -16,7 +16,7 @@
 						Mid-Atlantic Propane Exchange<br />
 						1751 Pulaski Highway<br />
 						Havre de Grace, MD 21078<br />
-						<abbr title="Phone">P:</abbr> (302) 685-2121<br />
+						<abbr title="Phone">P:</abbr> (410) 939-0646<br />
 						Directions &nbsp; | &nbsp; Contact
 					</address>
 				</div>

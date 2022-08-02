@@ -1,6 +1,6 @@
 <?php 
 //begin pagination
-function dmi_pagination($pages = '', $range = 1)
+function mape_pagination($pages = '', $range = 1)
 {
     $showitems = ($range * 2) + 1;
     
