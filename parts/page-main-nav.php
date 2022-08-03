@@ -5,9 +5,7 @@
 			<a class="navbar-brand" href="<?php echo get_home_url(); ?>" >
 				<img src="<?php echo get_home_url(); ?>/wp-content/uploads/mape-web-logo.webp" alt="Mid-Atlantic Propane Exchange" class="img-fluid" width="200">	
 			</a>
-			<button class="navbar-toggler rounded-0" type="button" data-bs-toggle="collapse" data-bs-target="#dmiNav" aria-controls="dmiNav" aria-expanded="false" aria-label="Toggle navigation">
-				<i class="fas fa-bars fa-2x"></i>
-			</button>
+			<div class="phone-header h5 fw-bold"><a class="text-dark-black" title="Click to Call" href="tel:1+4109390646" style="text-decoration: none;"><i class="fa-solid fa-mobile-screen-button fa-fw"></i> 410-939-0646</a></div>
 			<div class="collapse navbar-collapse text-uppercase font-weight-bold" id="dmiNav">
 				<?php
 				wp_nav_menu( array(
@@ -46,6 +44,7 @@
     				<div class="text-center mb-4">
     				<a href="<?php echo get_home_url(); ?>">
     					<img src="<?php echo get_home_url(); ?>/wp-content/uploads/mape-web-logo.webp" alt="Mid-Atlantic Propane Exchange" width="200" class="img-fluid">
+    					<div class="phone-header h5 fw-bold"><a class="text-dark-black" title="Click to Call" href="tel:1+4109390646" style="text-decoration: none;"><i class="fa-solid fa-mobile-screen-button fa-fw"></i> 410-939-0646</a></div>
     					<br />
     				</a>
     				</div>

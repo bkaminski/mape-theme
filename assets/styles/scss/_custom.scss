@@ -97,8 +97,26 @@ h4.sub-title {
 	background: black;
 	background: rgba(0, 0, 0, 0.7);
 }
-
 #back-up:hover {
 	background: rgba(0, 0, 0, 0.9);
 	padding-top: 5px;
+}
+.phone-header {
+	position:relative;
+	margin-right: auto;
+	margin-left: auto;
+	width: 100%;
+	text-align: center;
+	padding-top: 0.5rem;
+	@include breakpoint (lg) {
+		width: 20%;
+	}
+}
+a.text-dark-black {
+	color: #222;
+	transition: 0.3s ease-in-out;
+	&:hover {
+		color: #0246f4 !important;
+		transition: 0.3s ease-in-out;
+	}
 }
