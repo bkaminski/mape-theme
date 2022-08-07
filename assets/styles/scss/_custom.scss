@@ -120,3 +120,11 @@ a.text-dark-black {
 		transition: 0.3s ease-in-out;
 	}
 }
+.social-icon {
+	color: #fff;
+	transition: 0.3s ease-in-out;
+	&:hover {
+		color: #0246f4;
+		transition: 0.3s ease-in-out;
+	}
+}
