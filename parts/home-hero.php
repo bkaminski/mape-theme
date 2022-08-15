@@ -10,7 +10,7 @@
 				<?php echo the_field('home_page_subtitle'); ?>
 				
 			</p>
-			<p><a href="#" class="btn btn-lg btn-warning text-uppercase fw-bold hero--cta">Find out More</a></p>
+			<p><a href="about-us" class="btn btn-lg btn-warning text-uppercase fw-bold hero--cta">Find out More</a></p>
 		</div>
 		<div class="carousel-inner">
 			<div class="carousel-item active">

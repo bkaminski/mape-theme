@@ -13,7 +13,7 @@
 		<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 		<div class="col-md-12 mb-4">
 			<article>
-				<h1 class="text-uppercase">
+				<h1 class="">
 					<a href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>">
 						<?php the_title(); ?>
 							
@@ -28,7 +28,7 @@
 			<p><?php esc_html_e( 'Sorry, no posts matched your criteria.' ); ?></p>
 		<?php endif; ?>
 		<div class="col">
-			<?php echo mape_pagination(); ?>
+			<?php echo dmi_pagination(); ?>
 		</div>
 	</div>
 </div>

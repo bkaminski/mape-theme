@@ -60,7 +60,7 @@
     					'walker'            => new WP_Bootstrap_Navwalker(),
     				)); ?>
     				<form class="d-flex" role="search">
-    					<input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" value="<?php echo esc_html($s, 1); ?>" name="s" id="searchMAPE" maxlength="33" required>
+    					<input id="searchMape" type="text" class="form-control form-control-lg" placeholder="Enter search term" aria-label="Search This Site" aria-describedby="button-addon2" value="<?php echo esc_html($s, 1); ?>" name="s" maxlength="33" required>
     					<button class="btn btn-outline-primary" type="submit">Search</button>
     				</form>
     			</div>

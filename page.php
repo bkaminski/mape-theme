@@ -14,7 +14,7 @@
 			 <?php endif; ?>
 		</div>
 	</main>
-	<?php if (is_page( array(15, 11, ) ) ) { 
+	<?php if (is_page( array(15) ) ) { 
 		 echo get_template_part('parts/page', 'partners');
 	} else {
 		//do nothing

@@ -14,7 +14,7 @@
 			<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 				<div class="col-md-12 mb-4">
 					<section>
-						<h1 class="tag-link mb-5 text-uppercase">
+						<h1 class="tag-link mb-2">
 							<a href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>">
 								<?php the_title(); ?>
 									

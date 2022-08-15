@@ -17,7 +17,7 @@
 						<p class="card-text">Mid-Atlantic Propane Exchange -- one of the area's leading providers of propane exchange services -- specializes in working with commercial and industrial companies. Our clients won't have to compete with residential clients for....</p>
 					</div>
 					<div class="card-footer text-center">
-						<a href="#" class="btn btn-lg btn-warning fw-bold text-uppercase">View Service</a>
+						<a href="services/propane-cylinder-exchange/" class="btn btn-lg btn-warning fw-bold text-uppercase">View Service</a>
 					</div>
 				</div>
 			</div>
@@ -31,7 +31,7 @@
 						<p class="card-text">The momentum of the "green-movement" is increasing as fast as gasoline prices, and landscape maintenance companies are turning to alternatives to help them cut emissions while still boosting their ...</p>
 					</div>
 					<div class="card-footer text-center">
-						<a href="#" class="btn btn-lg btn-warning fw-bold text-uppercase">View Service</a>
+						<a href="services/lawn-mower-propane/" class="btn btn-lg btn-warning fw-bold text-uppercase">View Service</a>
 					</div>
 				</div>
 			</div>
@@ -45,7 +45,7 @@
 						<p class="card-text">Stay warm your patio or deck year-round with Mid-Atlantic Propane’s hassle-free propane installation and delivery services. Propane heaters are an effective and environmentally friendly heat source...</p>
 					</div>
 					<div class="card-footer text-center">
-						<a href="#" class="btn btn-lg btn-warning fw-bold text-uppercase">View Service</a>
+						<a href="services/patio-heater-propane/" class="btn btn-lg btn-warning fw-bold text-uppercase">View Service</a>
 					</div>
 				</div>
 			</div>
@@ -59,7 +59,7 @@
 						<p class="card-text">Do you need heat for concrete/drywall curing, tarring a roof, or to keep your construction job on schedule? Mid-Atlantic Propane Exchange provides weekly and monthly...</p>
 					</div>
 					<div class="card-footer text-center">
-						<a href="#" class="btn btn-lg btn-warning fw-bold text-uppercase">View Service</a>
+						<a href="services/temporary-on-site-construction-heat/" class="btn btn-lg btn-warning fw-bold text-uppercase">View Service</a>
 					</div>
 				</div>
 			</div>
